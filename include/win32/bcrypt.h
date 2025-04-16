@@ -3,8 +3,8 @@
  * Copyright (c) Arvid Gerstmann. All rights reserved.
  */
 #ifndef _WINDOWS_
-#ifndef WINDOWS_CRYPT_H
-#define WINDOWS_CRYPT_H
+#ifndef WINDOWS_BCRYPT_H
+#define WINDOWS_BCRYPT_H
 
 #include "windows_base.h"
 
@@ -158,5 +158,5 @@ LONG WINAPI BCryptFinishHash(
     #pragma warning(pop)
 #endif
 
-#endif /* WINDOWS_CRYPT_H */
+#endif /* WINDOWS_BCRYPT_H */
 #endif /* _WINDOWS_ */
